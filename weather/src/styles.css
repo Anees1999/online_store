@@ -1,0 +1,142 @@
+/* You can add global styles to this file, and also import other style files */
+/*
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(167, 83, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 400px;
+    height: 80vh;
+    background-color: rgb(43, 127, 212);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px blueviolet;
+
+}
+.upper-data{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.lower-data{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.upper-data img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.weatherdata{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.city{
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+.temprature{
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 900;
+}
+.more-info-label{
+    color: white;
+}
+.more-info-container{
+    flex: 1;
+    background-color: rgb(181, 181, 239);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.info-block{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.info-block-label{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-block-label img{
+    width: 1.5em;
+}
+.info-block-label span{
+    color: white;
+    font-size: 0.8em;
+}
+
+
+.info-block-value{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+}*/
+body{
+    font-family: sans-serif;
+}
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.common-form{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 300px;
+}
+.form-input{
+    height: 35px;
+    color: blueviolet;
+    margin-bottom: 20px;
+    padding-left: 10x;
+    border: 1px solid blueviolet;
+}
+.form-button{
+    height: 35px;
+    cursor: pointer;
+    border: 1px solid blueviolet;
+}
